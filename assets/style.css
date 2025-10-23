@@ -1,0 +1,133 @@
+body {
+    font-family: "Vazirmatn", sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    color: #333;
+}
+
+header, nav, main, footer {
+    padding: 1rem;
+}
+
+header {
+    background: #ff8dc7;
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.4rem;
+    font-family: inherit;
+}
+
+button {
+    background: #e4007c;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alert {
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #155724;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table th, table td {
+    padding: 0.6rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+nav a {
+    margin-inline-end: 1rem;
+    color: #e4007c;
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    background: #eee;
+    border-radius: 999px;
+    font-size: 0.8rem;
+}
+
+.install body, body.install {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff8dc7, #ffe0f0);
+}
+
+.install .container {
+    max-width: 480px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #f0d6e6;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff6fc;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+textarea {
+    min-height: 120px;
+}
